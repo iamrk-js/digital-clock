@@ -1,11 +1,29 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #000;
-    color: #17d4fe;
+body {
+  background-color: #000;
+  color: #17d4fe;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.digitalClock {
+  font-size: 68px;
+  text-shadow: 10px 10px 20px #17d4fe;
+  font-family: "Orbitron", sans-serif;
+}
+
+/* .digitalClock{
+    font-size: 68px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid orange;
+    transform: translate(-50%, -50%);
+} */
